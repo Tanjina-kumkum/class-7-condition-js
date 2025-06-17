@@ -51,7 +51,32 @@ else {
  
  
  else { console.log("C");
+
+    
+ }
+
+ var gradeMark2= 1
+ if (gradeMark2==6) {
+    console.log('B');
+      
+ }
+ else if(gradeMark2<= 3 && gradeMark2>=2) {
+    console.log("C");
+    
+ }
+ else if ( gradeMark2<2 && gradeMark2==0)
+{ console.log("D");
+}
+    
+ else if (gradeMark2<2 && gradeMark2===1){
+
+    console.log("E");
+    
+ }
  
+ else {
+    console.log("fail");
+    
 
     
  }
